@@ -1,0 +1,221 @@
+
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+.hero .content {
+    background: #2caa52;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.background-container {
+    background: url('/gas420/img/bck.jpg') center/cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.container-custom {
+    background: rgba(44, 170, 82, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: -50px;
+    position: relative;
+}
+.btn-outline-white {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-outline-white:hover {
+    background-color: white;
+    color: black; /* Warna teks berubah saat hover */
+}
+
+.container-custom img {
+    width: 200px;
+    height: auto;
+    position: relative;
+    right: -20px;
+    transform: scale(1.7);
+}
+.products-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.product-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.product-category {
+    font-weight: bold;
+    color: #004080;
+    margin-top: 15px;
+}
+.manufacturing-container {
+    text-align: center;
+    padding: 50px 0;
+    background: #f8f9fa;
+}
+
+.section-title {
+    font-style: italic;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.section-heading {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    max-width: 250px;
+    padding: 20px;
+}
+
+.feature img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+.opportunity-container {
+    background: url('/gas420/img/bck.jpg') center/cover no-repeat;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.opportunity-content {
+    background: rgba(44, 170, 82, 0.9); /* Warna hijau dengan transparansi */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex; /* Menggunakan Flexbox */
+    align-items: center; /* Pusatkan vertikal */
+    justify-content: space-between; /* Jarak antara teks dan gambar */
+    max-width: 1200px; /* Lebar maksimum container */
+    margin: 0 auto; /* Pusatkan container */
+}
+
+.text-content {
+    flex: 1; /* Teks mengambil ruang yang tersedia */
+    text-align: left; /* Teks rata kiri */
+    padding-right: 20px; /* Jarak antara teks dan gambar */
+}
+
+.image-content img {
+    max-width: 300px; /* Lebar maksimum gambar */
+    height: auto; /* Tinggi gambar menyesuaikan */
+    border-radius: 10px; /* Sudut gambar melengkung */
+}
+
+.opportunity-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.opportunity-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.opportunity-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.opportunity-content button {
+    background: #004080; /* Warna biru tua */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.opportunity-content button:hover {
+    background: #007bff; /* Warna biru lebih terang saat hover */
+}
+.brands-container {
+    text-align: center;
+    padding: 50px 0;
+    background: #f8f9fa; /* Warna latar belakang */
+    overflow: hidden; /* Agar konten yang bergulir tidak terlihat di luar container */
+}
+
+.brands-container h2 {
+    font-size: 2rem;
+    color: #004080; /* Warna teks */
+    margin-bottom: 20px;
+}
+
+.brands-scroll {
+    overflow: hidden; /* Agar konten yang bergulir tidak terlihat di luar container */
+    white-space: nowrap; /* Mencegah logo dari wrapping ke baris baru */
+}
+
+.brands-track {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite; /* Animasi scroll */
+}
+
+.brands-track img {
+    height: 50px; /* Sesuaikan ukuran logo */
+    margin: 0 30px; /* Jarak antar logo */
+}
+.brands-track img:hover {
+    transform: scale(1.2); /* Logo membesar 20% saat dihover */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0); /* Mulai dari posisi awal */
+    }
+    100% {
+        transform: translateX(-50%); /* Geser ke kiri sebesar 50% dari total lebar */
+    }
+}

@@ -1,0 +1,6 @@
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-brand span {
+    color: #28a745; /* Warna hijau untuk "GAS" */
+}

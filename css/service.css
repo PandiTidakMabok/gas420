@@ -1,0 +1,71 @@
+/* service.css */
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.hero-section {
+    background-image: url('../img/cont1.png');
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
+    text-align: center;
+    padding: 4rem 0; /* Atur padding sesuai kebutuhan */
+    min-height: 400px; /* Menetapkan tinggi minimum */
+}
+
+.hero-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem; /* Ukuran font untuk judul hero */
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.container-jasa{
+    margin-top: 10;
+}
+
+.section-title {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: top center; /* Pastikan teks judul berada di tengah */
+    margin-bottom: 2rem; /* Jarak antara judul dan grid item */
+}
+
+.section-title h2 {
+    font-size: 2rem; /* Ukuran font untuk judul */
+    color: #1a365d; /* Ganti dengan warna yang diinginkan */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Menentukan 3 kolom */
+    gap: 1.5rem; /* Jarak antar item */
+}
+
+.grid-item {
+    background-color: #6b46c1; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 1.5rem; /* Padding dalam item */
+    border-radius: 0.5rem; /* Sudut melengkung */
+    height: 250px; /* Tinggi tetap untuk setiap item */
+    background-size: cover; /* Mengatur ukuran gambar latar belakang */
+    background-position: center; /* Memusatkan gambar latar belakang */
+    display: flex;
+    justify-content: center; /* Memusatkan teks secara horizontal */
+    align-items: center; /* Memusatkan teks secara vertikal */
+}
+
+.grid-item h2 {
+    font-size: 1.5rem; /* Ukuran font untuk judul dalam grid item */
+    font-weight: bold; /* Menebalkan teks judul */
+    text-align: center; /* Memusatkan teks */
+}
+
+body.dark {
+    background-color: #2d3748; /* Contoh warna latar belakang untuk mode gelap */
+    color: #ffffff; /* Warna teks untuk mode gelap */
+}
+
+body.dark .section-title h2 {
+    color: #ffffff;
+}
